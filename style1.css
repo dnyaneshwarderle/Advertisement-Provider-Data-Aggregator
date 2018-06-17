@@ -1,0 +1,376 @@
+@font-face {
+  font-family: SourceSansPro;
+  src: url(SourceSansPro-Regular.ttf);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #0087C3;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  width: 21cm;  
+  height: 29.7cm; 
+  margin: 0 auto; 
+  color: #555555;
+  background: #FFFFFF; 
+  font-family: Arial, sans-serif; 
+  font-size: 14px; 
+  font-family: SourceSansPro;
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+#logo {
+  float: left;
+  margin-top: 8px;
+}
+
+#logo img {
+  height: 70px;
+}
+
+#company {
+  float: right;
+  text-align: right;
+}
+
+
+#details {
+  margin-bottom: 50px;
+}
+
+#client {
+  padding-left: 6px;
+  border-left: 6px solid #0087C3;
+  float: left;
+}
+
+#client .to {
+  color: #777777;
+}
+
+h2.name {
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 0;
+}
+
+#invoice {
+  float: right;
+  text-align: right;
+}
+
+#invoice h1 {
+  color: #0087C3;
+  font-size: 2.4em;
+  line-height: 1em;
+  font-weight: normal;
+  margin: 0  0 10px 0;
+}
+
+#invoice .date {
+  font-size: 1.1em;
+  color: #777777;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 20px;
+  background: lightgrey;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+table th {
+  white-space: nowrap;        
+  font-weight: normal;
+}
+
+table td {
+  text-align: right;
+}
+
+table td h3{
+  color: #57B223;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0 0 0.2em 0;
+}
+
+table .no {
+  color: #FFFFFF;
+  font-size: 1.6em;
+  background: #57B223;
+}
+
+table .desc {
+  text-align: left;
+}
+
+table .unit {
+  background: #DDDDDD;
+}
+
+table .qty {
+}
+
+table .total {
+  background: #57B223;
+  color: #FFFFFF;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1.2em;
+}
+
+table tbody tr:last-child td {
+  border: none;
+}
+
+table tfoot td {
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border-bottom: none;
+  font-size: 1.2em;
+  white-space: nowrap; 
+  border-top: 1px solid #AAAAAA; 
+}
+
+table tfoot tr:first-child td {
+  border-top: none; 
+}
+
+table tfoot tr:last-child td {
+  color: #57B223;
+  font-size: 1.4em;
+  border-top: 1px solid #57B223; 
+
+}
+
+table tfoot tr td:first-child {
+  border: none;
+}
+
+#thanks{
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+#notices{
+  padding-left: 6px;
+  border-left: 6px solid #0087C3;  
+}
+
+#notices .notice {
+  font-size: 1.2em;
+}
+
+footer {
+  color: #777777;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #AAAAAA;
+  padding: 8px 0;
+  text-align: center;
+}
+
+/* CSS Document */
+#b1{
+    background-image: url("images/computer-image.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
+
+
+.fish { position: absolute; top: 40px; left: 40px;
+        width:500px;
+        hight:500px;
+        }
+body{
+	margin:0;
+	color:#232323;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	background:#f0f3f0;
+	width:100%;
+}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span{
+	margin:0; padding:0;
+}
+hp1   {color:red;
+      font-size: 30px;
+      text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+ul{
+	margin:0; 
+	padding:0; 
+	list-style-type:none;
+	font-size:0;
+	line-height:0;
+}
+
+
+.spacer{
+	clear:both; 
+	font-size:0; 
+	line-height:0;
+}
+//#navigation
+//{
+//margin:0 auto;
+//background-image:url(images/alogo.jpg) ;
+//height:530px;
+//width:1540px;
+//}
+h1
+{
+font:bold 14px/40px Arial, Helvetica, sans-serif;
+color: lightslategray;
+font-style: italic;
+font-family: sans-serif;
+border-color: background;
+font-size:15px; 
+}
+h2
+{
+font:bold 14px/40px Arial, Helvetica, sans-serif;
+color: Red;
+font-size:35px; 
+}
+p
+{
+font:normal 11px/18px Arial, Helvetica, sans-serif;
+padding:0 15px 0 0;
+}
+.more
+{
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+color:#2e3192;
+text-decoration:underline;
+}
+/* header */
+#header
+{
+margin:0 auto;
+//background-image:url(images/hioxindia-pharmacy_02.jpg) ;
+}
+#navigation
+{
+margin:0 auto;
+background:url("images/icons/ad.jpg") 0 0 repeat-x;
+height:530px;
+width:1440px;
+}
+#navigation ul
+{
+list-style:none;
+}
+#navigation ul li
+{
+font:normal 18px/40px Arial, Helvetica, sans-serif;
+display:block;
+padding:0 30px;
+margin-top:410px;
+float:left;
+text-align:center;
+}
+#navigation ul li a
+{
+text-decoration:none;
+display:block;
+color:orange;
+}
+#navigation ul li a:hover
+{
+text-decoration:none;
+display:block;
+color:#FFFFFF;
+}
+#content
+{
+margin:0 auto;
+width:960px;
+}
+#content h1
+{
+font:bold 20px/40px Arial, Helvetica, sans-serif;
+color:#0d4689;
+}
+#content p
+{
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+}
+
+#footer
+{
+margin:0 auto;
+background:#78b6e4;
+width:100%;
+height:86px;
+}
+#footer_1
+{
+//background:url(images/hioxindia-pharmacy_03.jpg) 0 0 no-repeat;
+width:960px;
+height:86px;
+margin:0 auto;
+}
+#footer_1 ul
+{
+list-style:none;
+padding:15px 0 0 210px;
+}
+#footer_1 ul li
+{
+font:normal 14px/18px Arial, Helvetica, sans-serif;
+display:block;
+padding:0 25px;
+float:left;
+text-align:center;
+}
+#footer_1 ul li a
+{
+text-decoration:none;
+display:block;
+color:#FFFFFF;
+}
+#design
+{
+font:normal 12px/45px Arial, Helvetica, sans-serif;
+color:#2e3192;
+padding:50px 0 0 350px;
+}
+#dum
+{
+text-decoration:none;
+color:#2e3192;
+}
+
+

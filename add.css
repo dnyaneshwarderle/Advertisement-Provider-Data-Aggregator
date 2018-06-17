@@ -1,0 +1,72 @@
+  a1{  
+color:white;  
+background-image:url("images/bg.jpeg");  
+padding:5px;
+font-size:30px;
+width:2000px;
+height:130px;
+border-radius:15px;
+font-size:30px;
+padding-left:10px;
+border:none;
+} 
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+  h2{  
+color:white;  
+background-image:url("alogo.jpg");  
+padding:5px;
+font-size:30px;
+max-height: 150px;
+max-width: 100px;
+width:100px;
+height:70px;
+border-radius:15px;
+font-size:30px;
+padding-left:25px;
+border:none;
+} 
+h3{  
+color:white;  
+background-image:url("b.jpg");  
+padding:15px; 
+font-size:30px;
+width:400px;
+height:490px;
+border-radius:15px;
+font-size:30px;
+padding-left:25px;
+border:none;
+}  
+h4{  
+color:white;  
+//background-image:url("images/bg.jpeg");  
+padding:2px; 
+font-size:80px;
+width:300px;
+height:70px;
+border-radius:20px;
+font-size:12px;
+padding-left:25px;
+border:none;
+}
+p1 {border-style: outset;}  
+p{  
+color:blue; 
+}
+.shadow {
+  background: #000;
+  border-radius: 12px 12px 4px 4px;
+  box-shadow: 0 0 20px 10px #000;
+  height: 12px;
+  margin: 30px auto;
+  opacity: 0.2;
+  width: 270px;
+}
